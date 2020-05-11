@@ -1,6 +1,6 @@
 import React, { Component, createElement } from 'react';
 import logo from './logo.svg';
-import './App.css';
+import styles from './App.css';
 import Person from './Person/Person'
 
 
@@ -132,7 +132,7 @@ class App extends Component {
 
     return(
      
-      <div className = 'App'>
+      <div className = {'App'}>
             <h1> Hi, I am a React APP!</h1>
             <p className={classes.join(' ')}>This is really working!</p>         
             <button className = 'button' alt = {this.state.showPerson} 
